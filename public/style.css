@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: cursive;
+    background-color: #eee;
+}
+footer{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 95%;
+    width: 100%;
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 1.3rem;
+    display: block;
+}
+input {
+    border: none;
+    font-size: 1.3rem;
+    background-color: transparent;
+    display: block;
+    font-family: cursive;
+    outline: none;
+    width: 100%;
+    padding-bottom: 2px;
+    
+}
+textarea{
+    padding-top: 10px ;
+    overflow: hidden;
+    resize: none;
+    font-size: 1rem;
+    font-family: cursive;
+    outline: none;
+    border: none;
+}
+.add{
+    position: relative ;
+    top:30px;
+    background-color: #f5ba13;
+}
+.heading{
+    background-color: #f5ba13;
+    margin: 0;
+    height: 70px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+.headingtext{
+    padding: 10px 30px;
+    margin: 0;
+    color: white;
+}
+.inputbox{
+    background-color:#fff;
+    border-radius: 5px ;
+    width: fit-content;
+    padding: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    margin: 15px auto;
+    padding: 15px;
+}
+.notebox{
+    background-color:#fff;
+    border-radius: 5px ;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 15px;
+    padding: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    float: left;
+    
+}
+.content {
+    margin: 0;
+    margin-left: 5px;
+}
+.delete{
+    border: none;
+    color: #f5ba13;
+    background-color: transparent;
+    outline: none;
+    font-family: cursive;
+    position: relative;
+    left: 85%;
+}
+.delete:hover{
+    color: #fdcf50;
+}
+.delete:active{
+    transform: translateY(0.5px);
+}
