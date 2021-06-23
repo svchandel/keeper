@@ -37,7 +37,7 @@ function InputBox(props){
         event.preventDefault();
     }
     const style = {
-        background : "#f5ba13",
+        background : "#284cc4",
         color: "white"
     };
    
