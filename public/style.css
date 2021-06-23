@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: cursive;
+    font-family: system-ui;
     background-color: #eee;
 }
 footer{
@@ -44,6 +44,7 @@ textarea{
     margin: 0;
     height: 70px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
+    font-family: cursive;
 }
 .headingtext{
     padding: 10px 30px;
@@ -68,6 +69,7 @@ textarea{
     padding: 5px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
     float: left;
+    font-size: medium;
     
 }
 .content {
